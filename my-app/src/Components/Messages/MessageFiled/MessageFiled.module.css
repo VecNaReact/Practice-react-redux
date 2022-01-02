@@ -1,0 +1,23 @@
+.inputArea{
+    display: flex;
+    padding-top: 8%;
+
+}
+
+.inputFields {
+    resize: none;
+    background: rgba(98, 97, 97, 0.85);
+    width: 98%;
+    border: none;
+}
+
+.send{
+    background-color: black;
+    color: #03ffa5;
+    border: 0;
+    cursor: pointer;
+}
+
+.send:hover{
+    background-color: #141534;
+}

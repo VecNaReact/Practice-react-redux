@@ -1,0 +1,43 @@
+.post{
+    padding-left: 1%;
+    padding-bottom: 1.5%;
+}
+
+.users__and__message{
+    display: flex;
+    align-items: center;
+}
+
+.post:last-child{
+    padding-bottom: 15px;
+}
+
+.post__face{
+    display: flex;
+    flex-direction: column;
+}
+
+.like{
+    font-size: 18px;
+    color: gold;
+    cursor: pointer;
+}
+
+.like:hover{
+    color: red;
+}
+
+.post__face img{
+    width: 70px;
+    border-radius: 50%;
+}
+
+.post__text{
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.nick__name{
+    text-decoration: none;
+    color: #2b32d3;
+}

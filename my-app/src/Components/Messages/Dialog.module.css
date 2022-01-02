@@ -1,0 +1,57 @@
+.dialogs {
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+}
+
+.dialog__items {
+    padding: 10px 10px 0;
+    background: url("http://3.bp.blogspot.com/_qJmYuKjmdhw/TLYjJeQpRgI/AAAAAAAAFIc/J-yWofrENmw/s1600/dota2-morphling.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+
+.dialog__items:first-child {
+    padding-top: 0;
+}
+
+.dialog {
+    color: #fcca02;
+    font-weight: 700;
+    margin-bottom: 10%;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.dialog.active{
+    color: #ff5900;
+    font-size: 30px;
+
+}
+
+.messages {
+    background: url("https://cdn.wallpapersafari.com/73/39/OolcnN.jpg");
+    background-size: 100% 100%;
+    padding-left: 10px;
+    padding-top: 3%;
+}
+.inputArea{
+    display: flex;
+    padding-top: 8%;
+
+}
+
+.inputFields {
+    resize: none;
+    background: rgba(98, 97, 97, 0.85);
+    border: none    ;
+}
+
+.send{
+    background-color: black;
+    color: #03ffa5;
+    border: 0;
+    cursor: pointer;
+}
+
+.send:hover{
+    background-color: #141534;
+}

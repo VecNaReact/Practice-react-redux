@@ -1,0 +1,29 @@
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #2b32d3;
+    grid-area: h;
+    background: url("https://ytcolor.ru/wp-content/uploads/2015/01/dota2-heroes2.png") no-repeat;
+    background-position: 50% 50%;
+    background-size: 100% 600%;
+}
+
+.logo{
+    margin-top: 1.5%;
+}
+
+.logo img{
+    max-width: 75px;
+    width: 100%;
+}
+
+.login__block{
+    margin-right: 15px;
+}
+
+.login__block a{
+    text-decoration: none;
+
+}

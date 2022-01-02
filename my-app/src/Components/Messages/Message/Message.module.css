@@ -1,0 +1,15 @@
+.message {
+    color: #03ffa5;
+    padding-bottom: 2%;
+    display: flex;
+    align-items: center;
+}
+
+.user{
+    margin-right: 1%;
+}
+
+.user__image{
+    width: 75px;
+    border-radius: 100%;
+}

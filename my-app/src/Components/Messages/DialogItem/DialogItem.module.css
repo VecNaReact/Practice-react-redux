@@ -1,0 +1,13 @@
+.dialog {
+    color: #fcca02;
+    font-weight: 700;
+    margin-bottom: 10%;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.dialog.active{
+    color: #ff5900;
+    font-size: 30px;
+
+}
